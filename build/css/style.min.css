@@ -5727,9 +5727,6 @@ a.tag:hover {
   background-color: whitesmoke;
   padding: 3rem 1.5rem 6rem; }
 
-body * {
-  font-family: "Trebuchet MS"; }
-
 .button.is-gradient {
   background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
   background-size: 200% auto;
@@ -6012,7 +6009,7 @@ body * {
 .pd-left-xl {
   padding-left: 2.369em; }
 
-body * {
+body {
   font-family: "Trebuchet MS", "Verdana", "Lucida Grande", sans; }
 
 .sans {
@@ -6021,12 +6018,41 @@ body * {
 .serif {
   font-family: Georgia, "Times New Roman", Times, serif; }
 
-em {
-  font-style: italic; }
-
 .caps {
-  text-transform: uppercase;
-  letter-spacing: 2px; }
+  text-transform: uppercase; }
+
+.verdana {
+  font-family: 'Verdana'; }
+
+.georgia {
+  font-family: 'Georgia'; }
+
+.arial {
+  font-family: 'Arial'; }
+
+.arial-black {
+  font-family: 'Arial Black'; }
+
+.impact {
+  font-family: 'Impact'; }
+
+.tahoma {
+  font-family: 'Tahoma'; }
+
+.trebuchet {
+  font-family: 'Trebuchet MS'; }
+
+.lucida {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.geneva {
+  font-family: 'Geneva'; }
+
+.palatino {
+  font-family: 'Palatino'; }
+
+.times {
+  font-family: 'Times New Roman', Times, serif; }
 
 .line-height-100 {
   line-height: 100%; }

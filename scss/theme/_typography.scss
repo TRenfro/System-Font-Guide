@@ -10,9 +10,7 @@ $laptop-body: 20px;
 $desktop-body: 22px;
 
 body {
-  * {
     font-family: $sans;
-  }
 }
 .sans {
     font-family: $sans;
@@ -20,12 +18,52 @@ body {
 .serif {
     font-family: $serif;
 }
-em {
-    font-style: italic;
-}
 .caps {
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    text-transform: uppercase;    
+}
+
+.verdana {
+  font-family: 'Verdana';
+}
+
+.georgia {
+  font-family: 'Georgia';
+}
+
+.arial {
+  font-family: 'Arial';
+}
+
+.arial-black {
+  font-family: 'Arial Black'
+}
+
+.impact {
+  font-family: 'Impact';
+}
+
+.tahoma {
+  font-family: 'Tahoma';
+}
+
+.trebuchet {
+  font-family: 'Trebuchet MS'
+}
+
+.lucida {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.geneva {
+  font-family: 'Geneva'
+}
+
+.palatino {
+  font-family: 'Palatino'
+}
+
+.times {
+  font-family: 'Times New Roman', Times, serif;
 }
 //==================================
 // line height
