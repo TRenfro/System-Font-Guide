@@ -6019,7 +6019,8 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif; }
 
 .caps {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: 4px; }
 
 .verdana {
   font-family: 'Verdana'; }
